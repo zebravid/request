@@ -8,4 +8,6 @@ s=session.post('http://wise.shottyapp.com/',data=params)
 #print(s.text)
 
 r=requests.get('https://wise.shottyapp.com/#/project/VISA_FIFA/shots')
+print("r.text"+"remote23")
 print(r.text)
+r=requests.get('https://wise.shottyapp.com/#/')
